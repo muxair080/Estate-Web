@@ -1,0 +1,137 @@
+   @media screen and (max-width: 1000px) {
+       #Agents {
+           grid-template-columns: repeat(2, 1fr);
+           position: relative;
+           left: 30px;
+       }
+       #Agents img {
+           width: 35vw;
+           height: 40vh;
+           text-align: center;
+       }
+       #services {
+           grid-template-columns: repeat(2, 1fr);
+       }
+       #icon{
+        margin: 16px 30px 0px 0px; 
+       }
+       #icon div {
+      
+        display: block;
+    }
+   }
+
+   @media screen and (max-width: 800px) {
+       #properties-pictures {
+           grid-template-columns: repeat(2, 1fr);
+       }
+       .imgs {
+           margin: 0px 10px;
+           overflow: hidden;
+       }
+       .imgs img {
+           width: 40vw;
+           height: 50%;
+           position: relative;
+           top: 0px;
+           bottom: 0px;
+       }
+       #contact-form {
+           display: block;
+           margin-left: 30%;
+       }
+       form .input input {
+           width: 60vw;
+       }
+       form #message textarea {
+           width: 60vw;
+       }
+       form #btns input {
+           margin: 0px 10px;
+       }
+ 
+       .footer-part {
+           grid-template-columns: repeat(2, 1fr);
+           grid-gap: 20px;
+       }
+       #Footer h2{
+            color: darkgoldenrod;
+       }
+       #subscription {
+           grid-column: 1/span 3;
+       }
+       #subscription #emailinput input {
+           width: 45vw;
+       }
+       
+       #contact-heading {
+        text-align:left;
+    } 
+   }
+
+   @media screen and (max-width: 600px) {
+       .service {
+           display: block;
+           text-align: center;
+       }
+       
+       #contact-form {
+        display: block;
+        margin-left: 10%;
+    }
+
+    form .input input {
+        width: 70vw;
+    }
+    form #message textarea {
+        width: 70vw;
+    }
+       #discription {
+           display: block;
+       }
+       #discription #sideimg {
+           display: none;
+       }
+   }
+
+   @media screen and (max-width: 500px) {
+    #show-content h1{
+        font-size: 2rem;
+    }  
+    #property {
+           display: block;
+       }
+       #properties-pictures {
+           display: block;
+           text-align: center;
+       }
+       .imgs img {
+           width: 70vw;
+           height: 70%;
+       }
+       #Agents {
+           display: block;
+           max-width: 80vw;
+           /* text-align: center; */
+           margin: 20px auto;
+       }
+       #Agents img {
+           width: 70vw;
+       }
+       
+       #services {
+        display: block;
+        
+    }
+    #Heading5{
+        margin-top: 20px;
+    }
+    #clients #client-msg {
+        padding: 10px 20px;
+    }
+    #clients .arrows {
+        cursor: pointer;
+        position: relative;
+        top: 200px;
+    }
+   }
